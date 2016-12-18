@@ -1,0 +1,14 @@
+Classical logic only permits propositions having a value of truth or falsity. The notion of whether 1+1=2 is an absolute, immutable and mathematical truth. However, there exist certain propositions with variable answers, such as asking various people to identify a colour. The notion of truth doesn't fall by the wayside, but rather on a means of representing and reasoning over partial knowledge when afforded, by aggregating all possible outcomes into a dimensional spectrum.
+
+Both degrees of truth and probabilities range between 0 and 1 and hence may seem similar at first. For example, let a 100 ml glass contain 30 ml of water. Then we may consider two concepts: empty and full. The meaning of each of them can be represented by a certain fuzzy set. Then one might define the glass as being 0.7 empty and 0.3 full. Note that the concept of emptiness would be subjective and thus would depend on the observer or designer. Another designer might, equally well, design a set membership function where the glass would be considered full for all values down to 50 ml. It is essential to realize that fuzzy logic uses truth degrees as a mathematical model of the vagueness phenomenon while probability is a mathematical model of ignorance.
+Applying truth values
+
+A basic application might characterize various sub-ranges of a continuous variable. For instance, a temperature measurement for anti-lock brakes might have several separate membership functions defining particular temperature ranges needed to control the brakes properly. Each function maps the same temperature value to a truth value in the 0 to 1 range. These truth values can then be used to determine how the brakes should be controlled.
+Fuzzy logic temperature
+
+In this image, the meanings of the expressions cold, warm, and hot are represented by functions mapping a temperature scale. A point on that scale has three "truth values" — one for each of the three functions. The vertical line in the image represents a particular temperature that the three arrows (truth values) gauge. Since the red arrow points to zero, this temperature may be interpreted as "not hot". The orange arrow (pointing at 0.2) may describe it as "slightly warm" and the blue arrow (pointing at 0.8) "fairly cold".
+Linguistic variables
+
+While variables in mathematics usually take numerical values, in fuzzy logic applications, the non-numeric are often used to facilitate the expression of rules and facts.[6]
+
+A linguistic variable such as age may have a value such as young or its antonym old. However, the great utility of linguistic variables is that they can be modified via linguistic hedges applied to primary terms. These linguistic hedges can be associated with certain functions.

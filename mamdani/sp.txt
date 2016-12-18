@@ -1,0 +1,41 @@
+Existe un debate sobre si es correcto hablar de una lógica, o de varias lógicas, pero en el siglo XX se han desarrollado no uno, sino varios sistemas lógicos diferentes, que capturan y formalizan distintas partes del lenguaje natural. Se podría definir a un sistema lógico como un conjunto de cosas, que nos ayudan en la toma de decisiones que sean lo más convenientemente posible.
+
+Un sistema lógico está compuesto por:
+
+    Un conjunto de símbolos primitivos (el alfabeto, o vocabulario).
+    Un conjunto de reglas de formación (la gramática) que nos dice cómo construir fórmulas bien formadas a partir de los símbolos primitivos.
+    Un conjunto de axiomas o esquemas de axiomas. Cada axioma debe ser una fórmula bien formada.
+    Un conjunto de reglas de inferencia. Estas reglas determinan qué fórmulas pueden inferirse de qué fórmulas. Por ejemplo, una regla de inferencia clásica es el modus ponens, según el cual, dada una fórmula A, y otra fórmula A → B, la regla nos permite afirmar que B.
+
+Estos cuatro elementos completan la parte sintáctica de los sistemas lógicos. Sin embargo, todavía no se ha dado ningún significado a los símbolos discutidos, y de hecho, un sistema lógico puede definirse sin tener que hacerlo. Tal tarea corresponde al campo llamado semántica formal, que se ocupa de introducir un quinto elemento:
+
+    Una interpretación formal. En los lenguajes naturales, una misma palabra puede significar diversas cosas dependiendo de la interpretación que se le dé. Por ejemplo, en el idioma español, la palabra «banco» puede significar un edificio o un asiento, mientras que en otros idiomas puede significar algo completamente distinto o nada en absoluto. En consecuencia, dependiendo de la interpretación, variará también el valor de verdad de la oración «el banco está cerca». Las interpretaciones formales asignan significados inequívocos a los símbolos, y valores de verdad a las fórmulas.
+
+Lógicas clásicas
+
+Los sistemas lógicos clásicos son los más estudiados y utilizados de todos, y se caracterizan por incorporar ciertos principios tradicionales que otras lógicas rechazan. Algunos de estos principios son: el principio del tercero excluido, el principio de no contradicción, el principio de explosión y la monoticidad de la implicación. Entre los sistemas lógicos clásicos se encuentran:
+
+    Lógica proposicional
+    Lógica de primer orden
+    Lógica de segundo orden
+
+Lógicas no clásicas
+
+Los sistemas lógicos no clásicos son aquellos que rechazan uno o varios de los principios de la lógica clásica. Algunos de estos sistemas son:
+
+    Lógica difusa: Es una lógica plurivalente que rechaza el principio del tercero excluido y propone un número infinito de valores de verdad.
+    Lógica relevante: Es una lógica paraconsistente que evita el principio de explosión al exigir que para que un argumento sea válido, las premisas y la conclusión deben compartir al menos una variable proposicional.
+    Lógica cuántica: Desarrollada para lidiar con razonamientos en el campo de la mecánica cuántica; su característica más notable es el rechazo de la propiedad distributiva.
+    Lógica no monotónica: Una lógica no monotónica es una lógica donde, al agregar una fórmula a una teoría cualquiera, es posible que el conjunto de consecuencias de esa teoría se reduzca.
+    Lógica intuicionista: Enfatiza las pruebas, en vez de la verdad, a lo largo de las transformaciones de las proposiciones.
+
+Lógicas modales
+
+Las lógicas modales están diseñadas para tratar con expresiones que califican la verdad de los juicios. Así por ejemplo, la expresión «siempre» califica a un juicio verdadero como verdadero en cualquier momento, es decir, siempre. No es lo mismo decir «está lloviendo» que decir «siempre está lloviendo».
+
+    Lógica modal: Trata con las nociones de necesidad, posibilidad, imposibilidad y contingencia.
+    Lógica deóntica: Se ocupa de las nociones morales de obligación y permisibilidad.
+    Lógica temporal: Abarca operadores temporales como «siempre», «nunca», «antes», «después», etc.
+    Lógica epistémica: Es la lógica que formaliza los razonamientos relacionados con el conocimiento.
+    Lógica doxástica: Es la lógica que trata con los razonamientos acerca de las creencias.
+

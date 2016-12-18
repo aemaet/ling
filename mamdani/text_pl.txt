@@ -1,0 +1,9 @@
+Logika rozmyta – jedna z logik wielowartościowych, stanowi uogólnienie klasycznej dwuwartościowej logiki. Została zaproponowana przez Lotfi Zadeha, jest ściśle powiązana z jego teorią zbiorów rozmytych. W logice rozmytej między stanem 0 (fałsz) a stanem 1 (prawda) rozciąga się szereg wartości pośrednich, które określają stopień przynależności elementu do zbioru[1].
+
+Logika rozmyta okazała się bardzo przydatna w zastosowaniach inżynierskich, gdzie klasyczna logika klasyfikująca jedynie według kryterium prawda/fałsz nie potrafi skutecznie poradzić sobie z wieloma niejednoznacznościami i sprzecznościami. Znajduje wiele zastosowań, między innymi w elektronicznych systemach sterowania (maszynami, pojazdami i automatami), zadaniach eksploracji danych czy też w budowie systemów ekspertowych.
+
+Metody logiki rozmytej wraz z algorytmami ewolucyjnymi i sieciami neuronowymi stanowią nowoczesne narzędzia do budowy inteligentnych systemów mających zdolności uogólniania wiedzy.
+
+Zbiór klasyczny – opiera się na dwóch wartościach logicznych:prawda i fałsz (1 lub 0). Pomiędzy tymi wartościami istnieje zawsze jasno określona granica – coś może przyjmować tylko wartość 1 lub tylko wartość 0.
+
+

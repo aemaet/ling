@@ -1,0 +1,33 @@
+точность 1 = 1/1/0
+точность 5 = 0.4/0.8/0.8
+точность 10 = 0.7/0.9/0.3
+средняя 1 = 1 + 1 + 1 + 4/7 + 5/8 + 6/9 + 7/10 =   0.556
+средняя 2 = 4 + 5/6 + 6/7 + 7/8 + 8/9 + 9/10 = 0.835
+средняя 3 = 1/2 + 2/3 + 3/4 + 4/5 = 0.271
+ndcg 1
+	cg1 = 8
+	dcg = 2 + 2/(math.log(2,2)) + 1/(math.log(3,2)) + 1/(math.log(7,2)) + 1/(math.log(8,2)) + 1/(math.log(9,2)) + 1/(math.log(10,2)) = 5.936
+	idcg = 2 + 2/(math.log(2,2)) + 1/(math.log(3,2)) + 1/(math.log(4,2)) + 1/(math.log(5,2)) + 1/(math.log(6,2)) + 1/(math.log(7,2)) = 6.034
+	ndcg = 0.914
+ndcg 2 
+	cg = 12
+	dcg = 2 + 1/(math.log(2,2)) + 1/(math.log(3,2)) + 2/(math.log(4,2)) + 2/(math.log(6,2)) + 1/(math.log(7,2)) + 1/(math.log(7,2)) + 1/(math.log(8,2)) + 1/(math.log(9,2)) + 1/(math.log(10,2)) = 7.066
+	idcg = 2 + 2/(math.log(2,2)) + 2/(math.log(3,2)) + 1/(math.log(4,2)) + + 1/(math.log(5,2)) + 1/(math.log(6,2)) + 1/(math.log(7,2)) + 1/(math.log(7,2)) + 1/(math.log(8,2)) + 1/(math.log(9,2)) = 7.94
+	ndcg = 0.889
+ndcg 3
+	cg = 4
+	dcg = 1/(math.log(2,2)) + 2/(math.log(3,2)) + 1/(math.log(4,2)) = 2.761
+	idcg = 2 + 1/(math.log(2,2)) + 1/(math.log(3,2)) = 3.63
+	ndcg = 0.76
+
+Задача 1.
+точность = 1 + 2/3 + 3/6 + 4/7 = 0.136
+Задача 2.
+1 система
+	dcg = 4 + 2/(math.log(2,2)) + 3/(math.log(3,2)) + 1/(math.log(4,2)) + 2/(math.log(5,2)) = 9.254
+
+2 система
+	dcg = 3 + 2/(math.log(2,2)) + 4/(math.log(3,2)) + 4/(math.log(4,2)) + 4/(math.log(5,2)) = 11.246
+
+	ndcg1/ndcg2 = (dcg1*idcg2)/(dcg2*idcg1) => idcg1 = idcg2 => 	= dcg1/dcg2 < 1 => dcg2 > dcg1 => 2ая лучше
+

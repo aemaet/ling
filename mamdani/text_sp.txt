@@ -1,0 +1,25 @@
+La lógica difusa (fuzzy logic, en inglés) se adapta mejor al mundo real en el que vivimos, e incluso puede comprender y funcionar con nuestras expresiones, del tipo «hace mucho calor», «no es muy alto», «el ritmo del corazón está un poco acelerado», etc.
+
+La clave de esta adaptación al lenguaje se basa en comprender los cuantificadores de cualidad para nuestras inferencias (en los ejemplos de arriba, «mucho», «muy» y «un poco»).
+
+En la teoría de conjuntos difusos se definen también las operaciones de unión, intersección, diferencia, negación o complemento, y otras operaciones sobre conjuntos (ver también subconjunto difuso), en los que se basa esta lógica.
+
+Para cada conjunto difuso, existe asociada una función de pertenencia para sus elementos, que indica en qué medida el elemento forma parte de ese conjunto difuso. Las formas de las funciones de pertenencia más típicas son trapezoidal, lineal y curva.
+
+Se basa en reglas heurísticas de la forma SI (antecedente) ENTONCES (consecuente), donde el antecedente y el consecuente son también conjuntos difusos, ya sea puros o resultado de operar con ellos. Sirvan como ejemplos de regla heurística para esta lógica (nótese la importancia de las palabras «muchísimo», «drásticamente», «un poco» y «levemente» para la lógica difusa):
+
+    SI hace muchísimo frío. ENTONCES aumento drásticamente la temperatura.
+    SI voy a llegar un poco tarde. ENTONCES aumento levemente la velocidad.
+
+Los métodos de inferencia para esta base de reglas deben ser sencillos, versátiles y eficientes. Los resultados de dichos métodos son un área final, fruto de un conjunto de áreas solapadas entre sí (cada área es resultado de una regla de inferencia). Para escoger una salida concreta a partir de tanta premisa difusa, el método más usado es el del centroide, en el que la salida final será el centro de gravedad del área total resultante.
+
+Las reglas de las que dispone el motor de inferencia de un sistema difuso pueden ser formuladas por expertos o bien aprendidas por el propio sistema, haciendo uso en este caso de redes neuronales para fortalecer las futuras tomas de decisiones.
+
+Los datos de entrada suelen ser recogidos por sensores que miden las variables de entrada de un sistema. El motor de inferencias se basa en chips difusos, que están aumentando exponencialmente su capacidad de procesamiento de reglas año a año.
+
+Un esquema de funcionamiento típico para un sistema difuso podría ser de la siguiente manera:
+Funcionamiento de un sistema de control difuso.
+
+En la figura, el sistema de control hace los cálculos con base en sus reglas heurísticas, comentadas anteriormente. La salida final actuaría sobre el entorno físico, y los valores sobre el entorno físico de las nuevas entradas (modificado por la salida del sistema de control) serían tomadas por sensores del sistema.
+
+Por ejemplo, imaginando que nuestro sistema difuso fuese el climatizador de un coche que se autorregula según las necesidades: Los chips difusos del climatizador recogen los datos de entrada, que en este caso bien podrían ser la temperatura y humedad simplemente. Estos datos se someten a las reglas del motor de inferencia (como se ha comentado antes, de la forma SI... ENTONCES... ), resultando un área de resultados. De esa área se escogerá el centro de gravedad, proporcionándola como salida. Dependiendo del resultado, el climatizador podría aumentar la temperatura o disminuirla dependiendo del grado de la salida.

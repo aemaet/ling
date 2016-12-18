@@ -1,0 +1,35 @@
+Prenons l'exemple de la vitesse d'un véhicule sur une route nationale française. La vitesse normale est de 90 km/h. La vitesse est considérée élevée au-dessus de 100 km/h et réglementaire en dessous de 80 km/h. On souhaite caractériser la vitesse du véhicule en répondant par exemple à la question « La vitesse est-elle élevée ? ».
+
+Dans ce modèle de réglementation routière, en logique booléenne, la réponse à la question s'énonce de la manière suivante (voir fig. 1) :
+
+    La vitesse est élevée à 100 % au-dessus de 100 km/h et à 0 % en dessous.
+
+En logique floue, on autorise différents degrés d'énoncés de réponse à la question « La vitesse est-elle élevée ? » (voir fig. 2) :
+
+    La vitesse est réglementaire en dessous de 80 km/h. On peut donc dire qu'en dessous de 80 km/h, la vitesse est élevée avec un taux de confiance de 0 %.
+
+Fuzzy1.svg
+fig. 2
+
+    La vitesse est élevée au-dessus de 100 km/h. La vitesse est non-réglementaire avec un taux de confiance de 100 % au-dessus de 100 km/h.
+    Aux stades intermédiaires, on considère que la vitesse est non-réglementaire à 50 % de confiance à 90 km/h et à 25 % de confiance à 85 km/h.
+
+De même, on peut définir une fonction correspondant à la question « La vitesse est-elle peu élevée ? » de la manière suivante (voir fig. 3) :
+
+    La vitesse est peu élevée en dessous de 80 km/h. Elle est donc peu élevée à 100 %.
+
+
+
+    La vitesse est considérée comme pas du tout peu élevée au-dessus de 100 km/h. Elle est donc peu élevée à 0 %.
+    La vitesse est donc peu élevée à 50 % à 90 km/h, et à 25 % à 95 km/h.
+
+On peut aussi définir une fonction correspondant à la question « La vitesse est-elle moyenne ? » (voir fig. 4) :
+
+    La vitesse est moyenne à 90 km/h. À cette allure, la vitesse est moyenne à 100 %.
+
+
+
+    La vitesse n'est pas du tout moyenne en dessous de 80 km/h et au-dessus de 100 km/h. Hors de cet intervalle, la vitesse est moyenne à 0 %.
+    La vitesse est donc moyenne à 50 % à 85 km/h et 95 km/h.
+
+Il n'est pas obligatoire que la transition soit linéaire. Des transitions hyperboliques (comme une sigmoïde ou une tangente hyperbolique), exponentielle, gaussienne (dans le cas d'un 	état moyen) ou de toute autre nature sont utilisables (voir fig. 5).
